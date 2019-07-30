@@ -1,6 +1,6 @@
 # My Public IP
 
-# [LIVE APP](https://cabagnale.github.io/mypublicip/index.html)
+# [LIVE APP](https://cabagnale.github.io/MyPublicIP/index.html)
 
 ## About
 
