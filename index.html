@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script id="g-api" async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnwktLifUmea_EUZFq_KpTA0n-vr1HFbc"></script>
+    <title>My Public IP</title>
+</head>
+<body>
+    <section id="hero">
+        <button class="buttons" name="Show my IP" id="button-show-ip">Show my IP</button>
+        <div id="form-custom-ip">
+            <form class="hidden">
+                <label for="Custom IP">Enter Custom IP:</label>
+                <input type="text" name="Custom IP" id="input-custom-ip">
+                <input class="buttons" id="submit-ip" type="submit" value="Submit">
+            </form>
+        </div>
+        <button class="buttons" name="Enter custom IP" id="button-custom-ip">Enter custom IP</button>
+        <div class="hidden" id="ip-info">
+            <h1></h1>
+            <h2></h2>
+            <ul>
+            </ul>
+        </div>
+        <div id="map">
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

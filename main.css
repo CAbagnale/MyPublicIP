@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    background-color: rgb(187, 187, 187);
+}
+
+#hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons, input {
+    width: 400px;
+    height: 85px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: black;
+    font-size: 2rem;
+    cursor: pointer;
+    text-align: center;
+    border: 3px solid #afcef3;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    transition: border .1s ease-in;
+    -webkit-transition: border .1s ease-in; 
+    -moz-transition: border .1s ease-in; 
+}
+
+.buttons {
+    background: #afcef3;
+}
+
+.submit-ip:hover {
+    border: 3px solid rgba(0, 0, 0, 0.397);
+}
+
+button:hover {
+    border: 3px solid rgba(0, 0, 0, 0.397);
+}
+
+ul {
+    list-style: none;
+}
+
+#map {
+    height: 100px;
+    width: 100px;
+}
