@@ -1,6 +1,6 @@
 # My Public IP
 
-# [LIVE APP](cabagnale.com)
+# [LIVE APP](http://cabagnale.com)
 
 ## About
 
